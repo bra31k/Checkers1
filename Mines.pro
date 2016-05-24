@@ -1,0 +1,29 @@
+#-------------------------------------------------
+#
+# Project created by QtCreator 2016-03-10T14:18:04
+#
+#-------------------------------------------------
+
+QT       += core gui opengl
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+CONFIG += c++11
+
+TARGET = Mines
+TEMPLATE = app
+
+SOURCES += main.cpp\
+        MainWindow.cpp \
+    Field.cpp \
+    Cell.cpp \
+    CellItem.cpp \
+    Checker.cpp
+
+HEADERS  += MainWindow.hpp \
+    Field.hpp \
+    Cell.hpp \
+    CellItem.hpp \
+    Checker.hpp
+
+FORMS    += MainWindow.ui
